@@ -333,6 +333,47 @@ textarea{
     width: 30%;
 
 }
+/* footer Start */
+
+footer{
+    background-color: black;
+    padding: 1rem;
+    color: #fff;
+    min-height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copy-right-text{
+    font-size: 2.5rem;
+    color: #fff;
+
+}
+.footer-icon{
+    font-size: 2.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* responsive start here */
 
@@ -375,6 +416,14 @@ nav li{ margin-right: 0; margin: 1rem; display: block; }
 
 .blog-post{
     width: 100%;
+}
+
+footer{
+    flex-direction: column;
+}
+
+#menubar2{
+    display: flex;
 }
     .col-sm-1{width:8.33%}
     .col-sm-2{width:16.66%}
